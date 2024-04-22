@@ -1,0 +1,119 @@
+<head>
+    <title>Nome empresa - Emprestimos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet/indexEmprestimos.css">
+</head>
+
+<body>
+    
+    <div class="barra1">
+        <p class="centralizado">LOGO</p>
+    </div>
+
+    <p id="txtEmprestimo" class="centralizado">Emprestimos</p>
+    <p id="txtNota">*Nota: elementos irão mudar na versão final</p>
+    <div class="barraLateral">
+        <a href="../pg1/inicio.html" style="text-decoration: none;">
+            <img id="imgInicio" src="imgsBarraLateral/AdobeStock_579943071.png"> 
+            <p id="txtInicio">Início</p>
+        </a>
+        <a href="../pg2/emprestimos.html" style="text-decoration: none;">
+            <img id="imgEmprestimos" src="imgsBarraLateral/AdobeStock_524209776.png"> 
+            <p id="txtEmprestimos" >Empréstimos</p>
+        </a>
+        <a href="../pg3/sejaNossoCliente.html" style="text-decoration: none;">
+            <img id="imgSeja" src="imgsBarraLateral/AdobeStock_523982905.png"> 
+            <p id="txtSeja">Seja nosso cliente</p>
+        </a>
+    </div>
+
+    <p id="txtEmpresPessoal">Emprestimo Pessoal:</p>
+    <p id="txtLoremEmpresP">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul.Duis dictas deleniti eu vix, eos ei vero omnesque. Sit cu vidit dicam timeam. Eam at ullum eruditi copiosae, te melius platonem mei, te sit wisi euismod. Eu paulo lobortis sit. Duo et mucius dolorum. Est adhuc autem aliquid ut. Ei diceret veritus incorrupte eos, ei agam aeterno feugait qui. Ea sit labore corpora molestiae, nam ad erat verear delenit.</p>
+    <p id="txtEmpresCons">Emprestimo Consignado:</p>
+    <p id="txtLoremEmpresC">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul.Duis dictas deleniti eu vix, eos ei vero omnesque. Sit cu vidit dicam timeam. Eam at ullum eruditi copiosae, te melius platonem mei, te sit wisi euismod. Eu paulo lobortis sit. Duo et mucius dolorum. Est adhuc autem aliquid ut. Ei diceret veritus incorrupte eos, ei agam aeterno feugait qui. Ea sit labore corpora molestiae, nam ad erat verear delenit.</p>
+
+    <div class="calculadora">
+        <p id="txtSim">Simulação de Empréstimo</p>
+        <p id="txtTipoEmp">Tipo de empréstimo:</p>
+        <div class="dropdown" id="tipoEmprestimo">
+            <input type="checkbox" id="chkTipoEmprestimo">
+            <label for="chkTipoEmprestimo" class="btnDropdown">▼</label>
+            <div class="dropdownConteudo">
+                <button class="conteudoTipoEmprestimo">Pessoal</button>
+                <button class="conteudoTipoEmprestimo">Consignado</button>
+            </div>
+        </div>    
+        
+        <div class="dropdown" id="valorEmprestimo">
+            <input type="checkbox" id="chkValorEmprestimo">
+            <label for="chkValorEmprestimo" class="btnDropdown">▼</label>
+            <div class="dropdownConteudo">
+                <button class="conteudoValorEmp">10.000</button>
+                <button class="conteudoValorEmp">100.000</button>
+                <button class="conteudoValorEmp">500.000</button>
+            </div>
+        </div>
+        <div id="qtdParcelas" class="inputParcelas" contenteditable="true"></div>        
+        <p id="txtValorEmp">Valor do empréstimo:</p>
+        <p id="txtQuantidade">Quantidade de parcelas:</p>
+        <p id="txtValorAproximado">Valor final da parcela <br/>aproximada:</p>
+        <p id="txtResultado">R$ 000.000,00</p>
+        <a href="../pg3/sejaNossoCliente.html">
+        <button id="btnSejaNosso">SEJA NOSSO CLIENTE</button>
+        </a>
+    </div>
+
+    <p id="txtPerguntasFreq">Perguntas Frequentes</p>
+    
+    <div class="perguntasFreq" id="per1">
+        <div id="dropdownPerguntasFreq1">
+            <input type="checkbox" id="chkPerguntas1">
+            <label for="chkPerguntas1" class="btnPerguntas">▼ Lorem ipsum dolor?</label>
+            <div class="dropdownConteudoPerguntas">
+                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="perguntasFreq" id="per2">
+        <div id="dropdownPerguntasFreq2">
+            <input type="checkbox" id="chkPerguntas2">
+            <label for="chkPerguntas2" class="btnPerguntas">▼ Lorem ipsum dolor?</label>
+            <div class="dropdownConteudoPerguntas">
+                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="perguntasFreq" id="per3">
+        <div id="dropdownPerguntasFreq3">
+            <input type="checkbox" id="chkPerguntas3">
+            <label for="chkPerguntas3" class="btnPerguntas">▼ Lorem ipsum dolor?</label>
+            <div class="dropdownConteudoPerguntas">
+                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="perguntasFreq" id="per4">
+        <div id="dropdownPerguntasFreq4">
+            <input type="checkbox" id="chkPerguntas4">
+            <label for="chkPerguntas4" class="btnPerguntas">▼ Lorem ipsum dolor?</label>
+            <div class="dropdownConteudoPerguntas">
+                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="caixaRedes">
+        <p id="txt1" class="centralizado">NOME EMPRESA</p>
+        <p id="txt2" class="centralizado">sobre empresa</p>
+        <p id="txt3">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu.</p>
+        <p id="txt4">Redes:</p>
+        <img id="instagram" src="imgsRedes/instagram.png"> <p id="txtInstagram">@LoremIpsum</p>
+        <img id="facebook" src="imgsRedes/facebook.png"> <p id="txtFacebook">@LoremIpsum</p>
+        <img id="linkedin" src="imgsRedes/linkedIn.png"> <p id="txtLinkedin">@LoremIpsum</p>
+        <img id="youtube" src="imgsRedes/youtube.png"> <p id="txtYoutube">@LoremIpsum</p>
+
+    </div>
+</body>
